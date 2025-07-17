@@ -1,0 +1,44 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-07-17T00:20:30.778Z",
+    "end": "2025-07-17T00:20:30.793Z",
+    "duration": 15
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before all\" hook in \"{root}\"",
+      "fullTitle": "\"before all\" hook in \"{root}\"",
+      "duration": 9,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Cannot find module 'jsdom/lib/old-api'\nRequire stack:\n- /mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha-jsdom/index.js\n- /mnt/c/Users/PC/javascript-scope-lab/test/helpers.js\n    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)\n    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)\n    at Function._load (node:internal/modules/cjs/loader:1211:37)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)\n    at Module.require (node:internal/modules/cjs/loader:1487:12)\n    at require (node:internal/modules/helpers:135:16)\n    at Context.<anonymous> (node_modules/mocha-jsdom/index.js:53:5)\n    at process.processImmediate (node:internal/timers:485:21)",
+        "message": "Cannot find module 'jsdom/lib/old-api'\nRequire stack:\n- /mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha-jsdom/index.js\n- /mnt/c/Users/PC/javascript-scope-lab/test/helpers.js\n- /mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/lib/nodejs/esm-utils.js\n- /mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/lib/mocha.js\n- /mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/lib/cli/one-and-dones.js\n- /mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/lib/cli/options.js\n- /mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/bin/mocha.js",
+        "code": "MODULE_NOT_FOUND",
+        "requireStack": [
+          "/mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha-jsdom/index.js",
+          "/mnt/c/Users/PC/javascript-scope-lab/test/helpers.js",
+          "/mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/lib/nodejs/esm-utils.js",
+          "/mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/lib/mocha.js",
+          "/mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/lib/cli/one-and-dones.js",
+          "/mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/lib/cli/options.js",
+          "/mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/bin/mocha.js"
+        ],
+        "multiple": [
+          {
+            "code": "MODULE_NOT_FOUND",
+            "requireStack": "/mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha-jsdom/index.js,/mnt/c/Users/PC/javascript-scope-lab/test/helpers.js,/mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/lib/nodejs/esm-utils.js,/mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/lib/mocha.js,/mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/lib/cli/one-and-dones.js,/mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/lib/cli/options.js,/mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/bin/mocha.js",
+            "multiple": "Error: Cannot find module 'jsdom/lib/old-api'\nRequire stack:\n- /mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha-jsdom/index.js\n- /mnt/c/Users/PC/javascript-scope-lab/test/helpers.js\n- /mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/lib/nodejs/esm-utils.js\n- /mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/lib/mocha.js\n- /mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/lib/cli/one-and-dones.js\n- /mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/lib/cli/options.js\n- /mnt/c/Users/PC/javascript-scope-lab/node_modules/mocha/bin/mocha.js"
+          }
+        ]
+      }
+    }
+  ],
+  "passes": []
+}
